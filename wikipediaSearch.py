@@ -11,7 +11,7 @@ def submit():
  password = entry2.get() # to get user password
  print(name)
  print(password)
- if name == "nauyanika" and password == "thapa": # to check password is correct or not
+ if name == "VISHAL" and password == "GUPTA": # to check password is correct or not
   messagebox.showinfo('information',"login Successful") # for dialoge box
   login = t.Toplevel(root) # for login page
   login.minsize(800,750) # to set width and height
